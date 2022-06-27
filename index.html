@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Adicionar o viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Streaming News</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .titulosite {
+            background-color: #dbe2ef;
+            color: #0d0758;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .barranav {
+            overflow: hidden;
+            background-color: #112d4e;
+        }
+
+        .barranav a {
+            float: left;
+            display: block;
+            padding: 14px 16px;
+            color: #f2f2f2;
+            text-align: center;
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 14px;
+        }
+
+        .barranav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .coluna {
+            float: left;
+            padding: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 13px;
+            text-align: justify;
+        }
+
+        .coluna.lateral {
+            width: 25%;
+        }
+
+        .coluna.meio {
+            width: 50%;
+        }
+
+        .rodape {
+            background-color: #dbe2ef;
+            padding: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 11px;
+            text-align: center;
+            clear: both;
+        }
+
+
+        /*Layout Responsivo */
+        @media screen and (max-width: 600px) {
+
+            .coluna.lateral, .coluna.meio {
+                width: 100%;
+                font-size: 16px;
+            }
+
+            .barranav a {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="titulosite">
+        <h1>Streaming News<h1>
+    </div>
+    <div class="barranav">
+        <a href="#">Principal</a>
+        <a href="#">Netflix</a>
+        <a href="#">Prime Video</a>
+        <a href="#">Disney Plus</a>
+        <a href="#">HBO Max</a>
+        <a href="#">Telecine</a>
+        <a href="#">Globo Play</a>
+    </div>
+    <div>
+        <div class="coluna lateral">
+            <h2>Curiosidades</h2>
+            <p>sadfkl asdflkjsdl sdfakljfda kjdsfioq ef asef asdf asdf...</p>
+        </div>
+        <div class="coluna meio">
+            <h2>Bem-vindo</h2>
+            <p>
+                kasdfkjlçadsfjkl sdflkdsflçkjdflkçjsdflkaj lkjfsdlçakjfdlk jllksdfjçlsdjkf lkjsadffçlkjlsdfjlkjdsf
+                lksdjflçaksdjf lçkjsdaf jkdslfj sdlkjflkjdsaf lkasdflkçj flkakseejlfkklj fsdlkasdfj lçksadflkjlçsad
+                flçksadf lksadfjlkjasdçlk asçdlkjflkjasdlkj sdflkjçlskdjfl asdljkfçlksjdf lkasjdf askdfjçlasdkf
+                jçlkasjdflkjasldfja lsdjflkasjdfçlaskdjfalskjf kjasçldfkjalskd fjlça sgjiosdfjdos
+                fjdslakfjlaçsjdfaisodfjaksdfjaçsldfkjasldfjaosid fjaskdlfçasldkfjlasdfjaçsldkfjalsdfjlaskjdflasjdflaskdf
+            </p>
+            <p>
+                kasdfkjlçadsfjkl sdflkdsflçkjdflkçjsdflkaj lkjfsdlçakjfdlk jllksdfjçlsdjkf lkjsadffçlkjlsdfjlkjdsf
+                lksdjflçaksdjf lçkjsdaf jkdslfj sdlkjflkjdsaf lkasdflkçj flkakseejlfkklj fsdlkasdfj lçksadflkjlçsad
+                flçksadf lksadfjlkjasdçlk asçdlkjflkjasdlkj sdflkjçlskdjfl asdljkfçlksjdf lkasjdf askdfjçlasdkf
+                jçlkasjdflkjasldfja lsdjflkasjdfçlaskdjfalskjf kjasçldfkjalskd fjlça sgjiosdfjdos
+            </p>
+        </div>
+        <div class="coluna lateral">
+            <h2>Nessa semana</h2>
+            <p>Lkdsfjlk asdfklsdaf sdfajsadfkl asdfjkasdlfkj asdflkjasdf lkjsadfkj asdflkj adsflkjsdaf asdf jklsadf
+                asdf...</p>
+        </div>
+    </div>
+    <div class="rodape">
+        <p>Copyright &copy; 2021 - Streaming News</p>
+    </div>
+</body>
+
+</html>
